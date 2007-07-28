@@ -22,11 +22,11 @@ From [http://en.wikipedia.org/wiki/Anemometer Wikipedia]: "An anemometer is a de
 This package is developed jointly by a group of students and researchers at the Faculty of Engineering, Tel Aviv University [http://www.eng.tau.ac.il] 
   * it's an open source under BSD license
   * it's written currently in Matlab (works fine under Windows XP, Matlab R2006x)
-  * it uses several open-source Matlab packages from the Matlab Central:
-    * kdtree by
-    * kNearestNeighbors by
-    * inpaint_nans by 
-  * it's developed using a generous help of Lavoie P. from Queen's University, Canada. e.g. his publication: [https://me.queensu.ca/people/pollard/publications/documents/LavoiePollardAnalysis.pdf PDF] or look at [http://scholar.google.com/scholar?as_q=wire&num=10&btnG=Search+Scholar&as_epq=&as_oq=&as_eq=&as_occt=any&as_sauthors=p+lavoie&as_publication=&as_ylo=&as_yhi=&as_allsubj=all&hl=en&lr= Scholar]
+  * it makes use of the following open-source Matlab packages from the Matlab Central:
+    * [http://www.mathworks.com/matlabcentral/fileexchange/loadFile.do?objectId=7030 kdtree] by Steven Michael, MIT
+    * [http://www.mathworks.com/matlabcentral/fileexchange/loadFile.do?objectId=15562&objectType=file kNearestNeighbors] by Ani 
+    * [http://www.mathworks.com/matlabcentral/fileexchange/loadFile.do?objectId=4551&objectType=file inpaint_nans] by John D'Errico
+  * it's developed using a generous help of Lavoie P. from Queen's University, Canada, providing us with his Labview subroutines (not actually used, but very helpful). Read, e.g. his publication: [https://me.queensu.ca/people/pollard/publications/documents/LavoiePollardAnalysis.pdf PDF] or look at [http://scholar.google.com/scholar?as_q=wire&num=10&btnG=Search+Scholar&as_epq=&as_oq=&as_eq=&as_occt=any&as_sauthors=p+lavoie&as_publication=&as_ylo=&as_yhi=&as_allsubj=all&hl=en&lr= Scholar]
   * Ideas are taken mostly from the literature (easiest way is to google for "multi hot wire calibration", e.g. [http://www.google.com/search?q=multi+hot+wire+calibration&ie=utf-8&oe=utf-8&aq=t&rls=org.mozilla:en-US:official&client=firefox-a  >>>]
     * Lavoie P. et al, Exp. Fluids, etc.
     * van Daijk et al. Exp. Fluids, 2004
