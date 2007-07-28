@@ -1,5 +1,7 @@
 #summary One-sentence summary of this page.
 
+HotWireLUT is an open-source package to calibrate a multi-hot-wire probe of a group of Prof. Arkady Tsinober, Tel Aviv University.
+
 = Introduction =
 
 *Hot-wire* is a shortcut of a hot-wire anemometer:
@@ -12,20 +14,16 @@ Source: [http://www.efunda.com/designstandards/sensors/hot_wires/hot_wires_intro
 
 From [http://en.wikipedia.org/wiki/Anemometer Wikipedia]: "An anemometer is a device for measuring the velocity or the pressure of the wind, and is one instrument used in a weather station. The term is derived from the Greek word, anemos, meaning wind." Read more about hot-wire anemometers on [http://www.efunda.com/designstandards/sensors/hot_wires/hot_wires_intro.cfm eFunda] web site
 
-*LUT* is a shortcut of the lookup-table. 
-
-
-
-
-
-
+*LUT* is a shortcut of the [http://en.wikipedia.org/wiki/Lookup_table lookup-table] (In computer science, a lookup table is a data structure, usually an array or associative array, used to replace a runtime computation with a simpler lookup operation. The speed gain can be significant, since retrieving a value from memory is often faster than undergoing an expensive computation. Wikipedia)
 
 
 = Details =
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
+This package is developed jointly by a group of students and researchers at the Faculty of Engineering, Tel Aviv University [http://www.eng.tau.ac.il] 
+  * it's an open source under BSD license
+  * it's developed using a generous help of Lavoie P. from Queen's University, Canada. e.g. his publication: [https://me.queensu.ca/people/pollard/publications/documents/LavoiePollardAnalysis.pdf PDF] or look at [http://scholar.google.com/scholar?as_q=wire&num=10&btnG=Search+Scholar&as_epq=&as_oq=&as_eq=&as_occt=any&as_sauthors=p+lavoie&as_publication=&as_ylo=&as_yhi=&as_allsubj=all&hl=en&lr= Scholar]
+  * Ideas are taken mostly from the literature (easiest way is to google for "multi hot wire calibration", e.g. [http://www.google.com/search?q=multi+hot+wire+calibration&ie=utf-8&oe=utf-8&aq=t&rls=org.mozilla:en-US:official&client=firefox-a  >>>]
+    * Lavoie P. et al, Exp. Fluids, etc.
+    * van Daijk et al. Exp. Fluids, 2004
   * Automatic links to other wiki pages
-
 
