@@ -1,6 +1,6 @@
 *HotWireLUT* is an open-source package to calibrate a multi-hot-wire probe of a group of Prof. Arkady Tsinober, Tel Aviv University.
 
-It is written in Matlab (Mathworks Inc. trademarked) and we have intentions to move to Python (NumPy/SciPy), using its powerful extension with C/C++.
+It is written in Matlab (Mathworks Inc. trademarked) and we have intentions to move to Python (Numpy/Scipy), using its powerful extension with C/C++.
 
 = Introduction =
 
