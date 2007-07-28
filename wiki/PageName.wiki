@@ -2,7 +2,7 @@
 
 = Introduction =
 
-Add your content here.
+Hot-wire is a shortcut of a hot-wire anemometer. From [http://en.wikipedia.org/wiki/Anemometer Wikipedia]: "An anemometer is a device for measuring the velocity or the pressure of the wind, and is one instrument used in a weather station. The term is derived from the Greek word, anemos, meaning wind."
 
 
 = Details =
