@@ -136,6 +136,10 @@ end
 %         Ux  =   (U).*cos(d2r*(y)).*cos(d2r*(z));
 %         Uz  =   (U).*cos(d2r*(y)).*sin(d2r*(z));
 %         Uy  =   (U).*sin(d2r*(y));
+% fixed bug (see above): 13.08.07 
+                Ux   =  U.*cos(d2r*y).*cos(d2r*z);
+                Uy  =   U.*cos(d2r*z).*sin(d2r*y);
+                Uz  =   U.*sin(d2r*z);
 
 
         if z_y_U_show_plot
@@ -343,10 +347,10 @@ end
                 n2 = myNearestNeighbors([tmpE(:,wiresInArray);d(wiresInArray,j)'],1);
                 % disp([k,n2(end)])
                 res = [y2(n2(end)), z2(n2(end)), u2(n2(end))];
-
+                % 13.08.07 fixed bug: in Uyhat, Uzhat.
                 Uxhat(j,k)   =  (res(3)).*cos(d2r*(res(1))).*cos(d2r*(res(2)));
-                Uyhat(j,k)  =   (res(3)).*cos(d2r*(res(1))).*sin(d2r*(res(2)));
-                Uzhat(j,k)  =   (res(3)).*sin(d2r*(res(1)));
+                Uyhat(j,k)  =   (res(3)).*cos(d2r*(res(2))).*sin(d2r*(res(1)));
+                Uzhat(j,k)  =   (res(3)).*sin(d2r*(res(2)));
             end % k
         end % j
 
