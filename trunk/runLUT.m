@@ -36,7 +36,7 @@ opt.skipLength =  0;
 opt.readLength = 200; % 490*8 values
 
 % Writing results options
-opt.write = 0; % if you do not want to write the following file, put zero
+opt.write = 0; % if you do not want to write the following resFile, = zero
 
 
 % lut_calibration(calibFile,datFile,resFile,lutFile,opt)
