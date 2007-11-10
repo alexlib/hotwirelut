@@ -28,6 +28,10 @@ opt.write = 0; % if you do not want to write the following resFile, = zero
 
 lut_calibration(calibFile,datFile,resFile,lutFile,opt)
 
+
+return
+%%%%%%%%%%%%%%% Stop here if TEST %%%%%%%%%%%%%%%%%
+
 % if it was successful run:
 opt.tosave = 1;
 opt.testMode = 1;
