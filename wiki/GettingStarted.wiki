@@ -24,7 +24,7 @@ for example, with Tortoise SVN on Windows XP:
 
   * Run Matlab
   * Get into the directory, C:\Matlab\hotwire. 
-  * Edit {{{runLUT.m}}}:
+  * Edit *{{{runLUT.m}}}* - modify directories of reading/writing files:
 {{{
 % runLUT.m
 % runs LUT model script
@@ -65,7 +65,7 @@ resFile = 'E:\Velfld\VELLUTL021_A.FLD';
 typical_run
 }}}
 
-  * Edit {{{typical_run.m}}}
+  * Edit *{{{typical_run.m}}}* to modify options:
 {{{% Options
 opt = struct;
 
