@@ -1,0 +1,22 @@
+#summary One-sentence summary of this page.
+
+= Getting Started =
+
+= Installation =
+
+Prerequisities: 
+# Matlab (tm) by Mathworks Inc., R2006a (R13+) [www.mathworks.com]
+# kdtree library by Steven Michael, MIT, from Matlab Central [http://www.mathworks.com/matlabcentral/fileexchange/loadFile.do?objectId=4586&objectType=file]
+# recommended: Tortoise SVN [http://tortoisesvn.tigris.org/] for the version control
+
+Download the package, using the Subversion client
+
+for example, with Tortoise SVN on Windows XP:
+* open a new directory, e.g. C:\Matlab\hotwire
+* with Right-mouse select SVN Checkout: 
+in the first line enter: {{{http://hotwirelut.googlecode.com/svn/trunk/}}} and press OK
+
+
+= First run =
+
+Get into the directory, C:\Matlab\hotwire. Open Matlab. Edit {{{runLUT.m}}}:
