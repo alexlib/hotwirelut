@@ -3,8 +3,8 @@
 Prerequisities: 
 
   # Matlab (tm) by Mathworks Inc., R2006a (R13+) [www.mathworks.com]
-  # kdtree library by Steven Michael, MIT, from Matlab Central   [http://www.mathworks.com/matlabcentral/fileexchange/loadFile.do?objectId=4586&objectType=file]
-  # recommended: Tortoise SVN [http://tortoisesvn.tigris.org/] for the version control
+  # kdtree library by Steven Michael, MIT, from Matlab Central (included in the package)
+  # Subversion client (recommended: Tortoise SVN [http://tortoisesvn.tigris.org/]) for the version control
 
 == Downloads == 
 
