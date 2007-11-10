@@ -6,22 +6,63 @@
 
 Prerequisities: 
 
-# Matlab (tm) by Mathworks Inc., R2006a (R13+) [www.mathworks.com]
-
-# kdtree library by Steven Michael, MIT, from Matlab Central [http://www.mathworks.com/matlabcentral/fileexchange/loadFile.do?objectId=4586&objectType=file]
-
-# recommended: Tortoise SVN [http://tortoisesvn.tigris.org/] for the version control
+  # Matlab (tm) by Mathworks Inc., R2006a (R13+) [www.mathworks.com]
+  # kdtree library by Steven Michael, MIT, from Matlab Central   [http://www.mathworks.com/matlabcentral/fileexchange/loadFile.do?objectId=4586&objectType=file]
+  # recommended: Tortoise SVN [http://tortoisesvn.tigris.org/] for the version control
 
 == Downloads == 
 
 Download the package, using the Subversion client
 
 for example, with Tortoise SVN on Windows XP:
-* open a new directory, e.g. C:\Matlab\hotwire
-* with Right-mouse select SVN Checkout: 
-in the first line enter: {{{http://hotwirelut.googlecode.com/svn/trunk/}}} and press OK
+  * open a new directory, e.g. C:\Matlab\hotwire
+  * with Right-mouse select SVN Checkout: 
+  in the first line enter: {{{http://hotwirelut.googlecode.com/svn/trunk/}}} and press OK
 
 
 = First run =
 
-Get into the directory, C:\Matlab\hotwire. Open Matlab. Edit {{{runLUT.m}}}:
+  * Run Matlab
+  * Get into the directory, C:\Matlab\hotwire. 
+  * Edit {{{runLUT.m}}}:
+{{{
+% runLUT.m
+% runs LUT model script
+
+addpath kdtree
+
+clear all
+
+% set no. 1
+calibFile = 'E:\Fld_Res\Calib\BCLBL021.FLD';
+lutFile = 'E:\Fld_Res\Calib\BCLBL021.MAT';
+datFile = 'E:\Fldat\FLDTL021.FLD';
+resFile = 'E:\Velfld\VELLUTL021.FLD';
+
+typical_run
+
+% set no 2 - processed on 14.08.07, see in E
+clear all
+
+calibFile   = 'E:\Fld_Res\Calib\BCLBL117.FLD';
+lutFile      = 'E:\Fld_Res\Calib\BCLBL117.MAT';
+datFile     = 'E:\Fldat\Fldtl117.fld';
+resFile     = 'E:\Velfld\VELLUTL117.FLD';
+
+typical_run
+
+
+% set no 2 - processed on 14.08.07, see in E
+
+clear all
+
+% set no. 1
+calibFile = 'E:\Fld_Res\Calib\ACLBL021.FLD';
+lutFile = 'E:\Fld_Res\Calib\ACLBL021.MAT';
+datFile = 'E:\Fldat\FLDTL021.FLD';
+resFile = 'E:\Velfld\VELLUTL021_A.FLD';
+
+typical_run
+}}}
+
+  * Edit {{{typical_run.m}}}
