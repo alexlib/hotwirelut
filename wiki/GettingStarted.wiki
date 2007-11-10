@@ -62,7 +62,8 @@ typical_run
 }}}
 
   * Edit *{{{typical_run.m}}}* to modify options:
-{{{% Options
+{{{
+% Options
 opt = struct;
 
 % General values:
