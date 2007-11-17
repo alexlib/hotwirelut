@@ -2,7 +2,7 @@
 
 Prerequisities: 
 
-  # Matlab (tm) by Mathworks Inc., R2006a (R13+) [www.mathworks.com]
+  # Matlab (tm) by Mathworks Inc., R2006a (R13+) [http://www.mathworks.com]
   # kdtree library by Steven Michael, MIT, from Matlab Central (included in the package for the sake of convenience) [[http://www.mathworks.com/matlabcentral/fileexchange/loadFile.do?objectId=7030&objectType=FILE]]
   # Subversion client (recommended: Tortoise SVN [http://tortoisesvn.tigris.org/]) for the version control
 
